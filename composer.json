@@ -1,0 +1,13 @@
+{
+    "name": "gdarquie/moselle-php",
+    "description": "A tool for communicating with API",
+    "authors": [
+        {
+            "name": "gdarquie",
+            "email": "gaetan@shinsen.fr"
+        }
+    ],
+    "require": {
+        "symfony/http-client": "^5.2"
+    }
+}
