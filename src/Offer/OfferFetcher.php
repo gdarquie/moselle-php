@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Moselle;
+namespace Moselle\Offer;
 
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 

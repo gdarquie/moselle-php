@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HelloWorld;
+namespace Moselle\HelloWorld;
 
 class HelloWorld
 {
