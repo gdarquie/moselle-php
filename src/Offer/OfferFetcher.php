@@ -8,17 +8,13 @@ use Symfony\Contracts\HttpClient\HttpClientInterface;
 
 class OfferFetcher
 {
-    public function test() {
-        return 'hello';
-    }
-
-    public static function fetchOffer(HttpClientInterface $client)
+    public static function fetchOffer(HttpClientInterface $client, string $url): array
     {
         $response = $client->request(
             'GET',
-            'http://localhost/offers'
+            $url
         );
 
-        return 'hello';
+        return $response->toArray();
     }
 }
