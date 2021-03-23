@@ -10,5 +10,10 @@
     "minimum-stability": "dev",
     "require": {
         "symfony/http-client": "^5.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
     }
 }
