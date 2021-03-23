@@ -9,6 +9,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "php": ">=7.3",
         "symfony/http-client": "^5.2"
     },
     "autoload": {
